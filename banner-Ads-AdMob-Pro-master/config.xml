@@ -2,12 +2,12 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
-    id          = "com.Fahadin.test"
+    id          = "com.Fahadin.calculator"
     versionCode = "1" 
     version     = "1.0.0" >
-   <name>Fahadin</name>
+   <name>Fahadin Calculator</name>
     <description>
-            A mobile test application. 
+            A mobile calculator application. 
     </description>
     <author href="https://www.facebook.com/fahadkamal05/" email="kawsarkamal71@gmail.com">
             Fahad Kamal
@@ -168,9 +168,7 @@
       <plugin name="cordova-plugin-splashscreen" spec="~3.2.1" source="npm"/>
       <plugin name="cordova-plugin-statusbar" spec="~2.1.2" source="npm"/>
       <plugin name="cordova-plugin-whitelist" spec="~1.2.1" source="npm"/>
-      <plugin name="phonegap-plugin-admobpro" spec="4.1.0" source="npm"/>
       <plugin name="phonegap-plugin-barcodescanner" spec="4.1.0" source="npm"/>
-	  
       
       <access origin="*" subdomains="true"/>
       
